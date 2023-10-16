@@ -9,11 +9,13 @@ help() {
   echo "  zmicro zinc <args ...>"
   echo ""
 
-  zinc --help
+  # zinc --help
+  echo "no help"
 }
 
 version() {
-  zinc --version
+  # zinc --version
+  echo "$PACKAGE_CORE_VERSION"
 }
 
 core() {
